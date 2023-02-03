@@ -31,6 +31,7 @@ int main()
     printf("\n");
 
     int n = 1;
+    int chk;
     for (int i = 0; i < x*y; i++)
     {
         for (int j = n; j < y; j++)
@@ -41,6 +42,7 @@ int main()
             arr[i][j] = arr[j][i];
             arr[j][i] = q;
             }
+            chk++;
         }
         n++;
     }
@@ -55,7 +57,7 @@ int main()
         }
         printf("\n");
     }
-    printf("\nОбщее количество итераций: %i", n );
+    printf("\nОбщее количество итераций: %i\n",chk);
 
     return 0;
 }
