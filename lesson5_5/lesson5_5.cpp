@@ -41,8 +41,9 @@ int main()
             int q = arr[i][j];
             arr[i][j] = arr[j][i];
             arr[j][i] = q;
-            }
             chk++;
+            }
+            
         }
         n++;
     }
@@ -57,7 +58,7 @@ int main()
         }
         printf("\n");
     }
-    printf("\nОбщее количество итераций: %i\n",chk);
+    printf("\nОбщее количество перестановок: %i\n",chk);
 
     return 0;
 }
