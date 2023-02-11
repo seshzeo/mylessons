@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <iostream>
+using namespace std;
 
 void task1();
 void task2();
@@ -30,7 +32,7 @@ void task1()
 
 void task2()
 {
-    char str[100] = {' ',' ',' ','H','e','l','l','o',' ',' ',' ',' ',' ',' '};
+    char str[100] = "    Hello    ";
     /*При вводе слова в консоль с пробелами, даже без использование каких либо сторонних функций типа моей, все пробелы (в начале и конце) удаляются автоматически
     поэтому массив задал вручную*/
     delete_spaces(str);
