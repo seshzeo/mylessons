@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <iostream>
-using namespace std;
 
 void task1();
 void task2();
@@ -21,7 +19,7 @@ void task1()
 {
     char str[100];
     char by;
-    printf("Введдите строку в которой будем менять первую и последнюю букву: ");
+    printf("Введите строку в которой будем менять первую и последнюю букву: ");
     scanf("%s",str);
     printf("Введите символ на который будем менять: ");
     scanf("%c",&by);
