@@ -20,7 +20,7 @@ float divide(float i) {
     if (i == 0)
         throw invalid_argument("\nMust be non zero");
     else
-        i/= 1024;
+        i = 1024/i;
     
     return i;
 }
